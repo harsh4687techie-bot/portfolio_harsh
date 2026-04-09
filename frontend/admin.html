@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Harshvardhan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="admin-body">
+    <div id="login-container" class="admin-container glass-panel fade-in">
+        <h2>Admin Login</h2>
+        <p class="admin-subtitle">Secure access required</p>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="admin-token">Access Token</label>
+                <input type="password" id="admin-token" required placeholder="Enter secure token">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+            <div id="login-msg" class="form-msg"></div>
+        </form>
+        <p style="text-align: center; margin-top: 1rem;"><a href="index.html" class="admin-link">Back to Portfolio</a></p>
+    </div>
+
+    <div id="dashboard-container" class="dashboard-container hidden fade-in">
+        <header class="dashboard-header">
+            <h2>Contact Submissions</h2>
+            <div>
+                <a href="index.html" class="btn btn-secondary btn-small">Portfolio</a>
+                <button id="logout-btn" class="btn btn-primary btn-small">Logout</button>
+            </div>
+        </header>
+        <div class="table-container glass-panel">
+            <table class="messages-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Message</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody id="messages-body">
+                    <!-- Messages will be loaded here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

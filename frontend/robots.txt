@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://harshvardhan-shinde.vercel.app/sitemap.xml

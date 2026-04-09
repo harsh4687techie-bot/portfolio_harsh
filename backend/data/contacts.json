@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Test User",
+        "email": "test@example.com",
+        "message": "This is a test message.",
+        "timestamp": "2026-04-04T18:55:50.303550"
+    },
+    {
+        "id": 2,
+        "name": "harsh",
+        "email": "anil4687@gmail.com",
+        "message": "hi",
+        "timestamp": "2026-04-04T18:59:20.074111"
+    },
+    {
+        "id": 3,
+        "name": "raj",
+        "email": "anil4687@gmail.com",
+        "message": "8522",
+        "timestamp": "2026-04-09T05:05:38.329325"
+    },
+    {
+        "id": 4,
+        "name": "Arryi",
+        "email": "as0815046@gmail.com",
+        "message": "jje",
+        "timestamp": "2026-04-09T05:28:41.950884"
+    },
+    {
+        "id": 5,
+        "name": "harsh shinde",
+        "email": "anil4687@gmail.com",
+        "message": "7418j,gcfcjg",
+        "timestamp": "2026-04-09T05:33:37.115691"
+    },
+    {
+        "id": 6,
+        "name": "harsh shinde",
+        "email": "test@example.com",
+        "message": "sdwdw",
+        "timestamp": "2026-04-09T05:36:39.783442"
+    },
+    {
+        "id": 7,
+        "name": "harsh shinde",
+        "email": "anil4687@gmail.com",
+        "message": "wewe",
+        "timestamp": "2026-04-09T05:58:08.576043"
+    },
+    {
+        "id": 8,
+        "name": "Antigravity Test",
+        "email": "antigravity.test@gmail.com",
+        "message": "Hello! This is a live test of the email notification system. Please confirm if this is received.",
+        "timestamp": "2026-04-09T06:01:24.397656"
+    }
+]

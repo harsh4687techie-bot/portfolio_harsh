@@ -1,0 +1,8 @@
+{
+    "python.defaultInterpreterPath": "c:/Users/Harshvardhan/portfolio/.venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+}
