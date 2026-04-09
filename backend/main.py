@@ -21,6 +21,12 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+# ── Path constants (always absolute, regardless of CWD) ────────────────────────
+BASE_DIR     = os.path.dirname(os.path.abspath(__file__))          # .../backend
+ROOT_DIR     = os.path.abspath(os.path.join(BASE_DIR, ".."))       # .../portfolio
+FRONTEND_DIR = os.path.join(ROOT_DIR, "frontend")                  # .../frontend
+DATA_FILE    = os.path.join(BASE_DIR, "data", "contacts.json")     # .../backend/data/contacts.json
+
 # ── Logging ────────────────────────────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
@@ -31,13 +37,6 @@ logger = logging.getLogger("portfolio")
 fh = logging.FileHandler(os.path.join(BASE_DIR, "app.log"))
 fh.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s"))
 logger.addHandler(fh)
-
-
-# ── Path constants (always absolute, regardless of CWD) ────────────────────────
-BASE_DIR     = os.path.dirname(os.path.abspath(__file__))          # .../backend
-ROOT_DIR     = os.path.abspath(os.path.join(BASE_DIR, ".."))       # .../portfolio
-FRONTEND_DIR = os.path.join(ROOT_DIR, "frontend")                  # .../frontend
-DATA_FILE    = os.path.join(BASE_DIR, "data", "contacts.json")     # .../backend/data/contacts.json
 
 logger.info(f"BASE_DIR:     {BASE_DIR}")
 logger.info(f"FRONTEND_DIR: {FRONTEND_DIR}")

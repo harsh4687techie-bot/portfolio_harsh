@@ -1,6 +1,8 @@
 fastapi
 uvicorn[standard]
+gunicorn
 pydantic
 python-dotenv
 python-multipart
 slowapi
+email-validator
